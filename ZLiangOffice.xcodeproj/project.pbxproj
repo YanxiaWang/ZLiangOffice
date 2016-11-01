@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEFFC3AA1DC9349A003CF9D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFFC3A91DC9349A003CF9D7 /* main.m */; };
+		EEFFC3AD1DC9349A003CF9D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFFC3AC1DC9349A003CF9D7 /* AppDelegate.m */; };
+		EEFFC3B01DC9349A003CF9D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFFC3AF1DC9349A003CF9D7 /* ViewController.m */; };
+		EEFFC3B31DC9349A003CF9D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEFFC3B11DC9349A003CF9D7 /* Main.storyboard */; };
+		EEFFC3B51DC9349A003CF9D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEFFC3B41DC9349A003CF9D7 /* Assets.xcassets */; };
+		EEFFC3B81DC9349A003CF9D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEFFC3B61DC9349A003CF9D7 /* LaunchScreen.storyboard */; };
+		EEFFC3C31DC9349A003CF9D7 /* ZLiangOfficeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFFC3C21DC9349A003CF9D7 /* ZLiangOfficeTests.m */; };
+		EEFFC3CE1DC9349A003CF9D7 /* ZLiangOfficeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFFC3CD1DC9349A003CF9D7 /* ZLiangOfficeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEFFC3BF1DC9349A003CF9D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFFC39D1DC9349A003CF9D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEFFC3A41DC9349A003CF9D7;
+			remoteInfo = ZLiangOffice;
+		};
+		EEFFC3CA1DC9349A003CF9D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFFC39D1DC9349A003CF9D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEFFC3A41DC9349A003CF9D7;
+			remoteInfo = ZLiangOffice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEFFC3A51DC9349A003CF9D7 /* ZLiangOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLiangOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFFC3A91DC9349A003CF9D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEFFC3AB1DC9349A003CF9D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEFFC3AC1DC9349A003CF9D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEFFC3AE1DC9349A003CF9D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEFFC3AF1DC9349A003CF9D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEFFC3B21DC9349A003CF9D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEFFC3B41DC9349A003CF9D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEFFC3B71DC9349A003CF9D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEFFC3B91DC9349A003CF9D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFFC3BE1DC9349A003CF9D7 /* ZLiangOfficeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLiangOfficeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFFC3C21DC9349A003CF9D7 /* ZLiangOfficeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLiangOfficeTests.m; sourceTree = "<group>"; };
+		EEFFC3C41DC9349A003CF9D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFFC3C91DC9349A003CF9D7 /* ZLiangOfficeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLiangOfficeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFFC3CD1DC9349A003CF9D7 /* ZLiangOfficeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLiangOfficeUITests.m; sourceTree = "<group>"; };
+		EEFFC3CF1DC9349A003CF9D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEFFC3A21DC9349A003CF9D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFFC3BB1DC9349A003CF9D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFFC3C61DC9349A003CF9D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEFFC39C1DC9349A003CF9D7 = {
+			isa = PBXGroup;
+			children = (
+				EEFFC3A71DC9349A003CF9D7 /* ZLiangOffice */,
+				EEFFC3C11DC9349A003CF9D7 /* ZLiangOfficeTests */,
+				EEFFC3CC1DC9349A003CF9D7 /* ZLiangOfficeUITests */,
+				EEFFC3A61DC9349A003CF9D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEFFC3A61DC9349A003CF9D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEFFC3A51DC9349A003CF9D7 /* ZLiangOffice.app */,
+				EEFFC3BE1DC9349A003CF9D7 /* ZLiangOfficeTests.xctest */,
+				EEFFC3C91DC9349A003CF9D7 /* ZLiangOfficeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEFFC3A71DC9349A003CF9D7 /* ZLiangOffice */ = {
+			isa = PBXGroup;
+			children = (
+				EEFFC3AB1DC9349A003CF9D7 /* AppDelegate.h */,
+				EEFFC3AC1DC9349A003CF9D7 /* AppDelegate.m */,
+				EEFFC3AE1DC9349A003CF9D7 /* ViewController.h */,
+				EEFFC3AF1DC9349A003CF9D7 /* ViewController.m */,
+				EEFFC3B11DC9349A003CF9D7 /* Main.storyboard */,
+				EEFFC3B41DC9349A003CF9D7 /* Assets.xcassets */,
+				EEFFC3B61DC9349A003CF9D7 /* LaunchScreen.storyboard */,
+				EEFFC3B91DC9349A003CF9D7 /* Info.plist */,
+				EEFFC3A81DC9349A003CF9D7 /* Supporting Files */,
+			);
+			path = ZLiangOffice;
+			sourceTree = "<group>";
+		};
+		EEFFC3A81DC9349A003CF9D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEFFC3A91DC9349A003CF9D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEFFC3C11DC9349A003CF9D7 /* ZLiangOfficeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEFFC3C21DC9349A003CF9D7 /* ZLiangOfficeTests.m */,
+				EEFFC3C41DC9349A003CF9D7 /* Info.plist */,
+			);
+			path = ZLiangOfficeTests;
+			sourceTree = "<group>";
+		};
+		EEFFC3CC1DC9349A003CF9D7 /* ZLiangOfficeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEFFC3CD1DC9349A003CF9D7 /* ZLiangOfficeUITests.m */,
+				EEFFC3CF1DC9349A003CF9D7 /* Info.plist */,
+			);
+			path = ZLiangOfficeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEFFC3A41DC9349A003CF9D7 /* ZLiangOffice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFFC3D21DC9349A003CF9D7 /* Build configuration list for PBXNativeTarget "ZLiangOffice" */;
+			buildPhases = (
+				EEFFC3A11DC9349A003CF9D7 /* Sources */,
+				EEFFC3A21DC9349A003CF9D7 /* Frameworks */,
+				EEFFC3A31DC9349A003CF9D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLiangOffice;
+			productName = ZLiangOffice;
+			productReference = EEFFC3A51DC9349A003CF9D7 /* ZLiangOffice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEFFC3BD1DC9349A003CF9D7 /* ZLiangOfficeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFFC3D51DC9349A003CF9D7 /* Build configuration list for PBXNativeTarget "ZLiangOfficeTests" */;
+			buildPhases = (
+				EEFFC3BA1DC9349A003CF9D7 /* Sources */,
+				EEFFC3BB1DC9349A003CF9D7 /* Frameworks */,
+				EEFFC3BC1DC9349A003CF9D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEFFC3C01DC9349A003CF9D7 /* PBXTargetDependency */,
+			);
+			name = ZLiangOfficeTests;
+			productName = ZLiangOfficeTests;
+			productReference = EEFFC3BE1DC9349A003CF9D7 /* ZLiangOfficeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEFFC3C81DC9349A003CF9D7 /* ZLiangOfficeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFFC3D81DC9349A003CF9D7 /* Build configuration list for PBXNativeTarget "ZLiangOfficeUITests" */;
+			buildPhases = (
+				EEFFC3C51DC9349A003CF9D7 /* Sources */,
+				EEFFC3C61DC9349A003CF9D7 /* Frameworks */,
+				EEFFC3C71DC9349A003CF9D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEFFC3CB1DC9349A003CF9D7 /* PBXTargetDependency */,
+			);
+			name = ZLiangOfficeUITests;
+			productName = ZLiangOfficeUITests;
+			productReference = EEFFC3C91DC9349A003CF9D7 /* ZLiangOfficeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEFFC39D1DC9349A003CF9D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "中粮";
+				TargetAttributes = {
+					EEFFC3A41DC9349A003CF9D7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					EEFFC3BD1DC9349A003CF9D7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEFFC3A41DC9349A003CF9D7;
+					};
+					EEFFC3C81DC9349A003CF9D7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEFFC3A41DC9349A003CF9D7;
+					};
+				};
+			};
+			buildConfigurationList = EEFFC3A01DC9349A003CF9D7 /* Build configuration list for PBXProject "ZLiangOffice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEFFC39C1DC9349A003CF9D7;
+			productRefGroup = EEFFC3A61DC9349A003CF9D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEFFC3A41DC9349A003CF9D7 /* ZLiangOffice */,
+				EEFFC3BD1DC9349A003CF9D7 /* ZLiangOfficeTests */,
+				EEFFC3C81DC9349A003CF9D7 /* ZLiangOfficeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEFFC3A31DC9349A003CF9D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFFC3B81DC9349A003CF9D7 /* LaunchScreen.storyboard in Resources */,
+				EEFFC3B51DC9349A003CF9D7 /* Assets.xcassets in Resources */,
+				EEFFC3B31DC9349A003CF9D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFFC3BC1DC9349A003CF9D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFFC3C71DC9349A003CF9D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEFFC3A11DC9349A003CF9D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFFC3B01DC9349A003CF9D7 /* ViewController.m in Sources */,
+				EEFFC3AD1DC9349A003CF9D7 /* AppDelegate.m in Sources */,
+				EEFFC3AA1DC9349A003CF9D7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFFC3BA1DC9349A003CF9D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFFC3C31DC9349A003CF9D7 /* ZLiangOfficeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFFC3C51DC9349A003CF9D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFFC3CE1DC9349A003CF9D7 /* ZLiangOfficeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEFFC3C01DC9349A003CF9D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEFFC3A41DC9349A003CF9D7 /* ZLiangOffice */;
+			targetProxy = EEFFC3BF1DC9349A003CF9D7 /* PBXContainerItemProxy */;
+		};
+		EEFFC3CB1DC9349A003CF9D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEFFC3A41DC9349A003CF9D7 /* ZLiangOffice */;
+			targetProxy = EEFFC3CA1DC9349A003CF9D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEFFC3B11DC9349A003CF9D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEFFC3B21DC9349A003CF9D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEFFC3B61DC9349A003CF9D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEFFC3B71DC9349A003CF9D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEFFC3D01DC9349A003CF9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEFFC3D11DC9349A003CF9D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEFFC3D31DC9349A003CF9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZLiangOffice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cofco.zlzdapp.ZLiangOffice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEFFC3D41DC9349A003CF9D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZLiangOffice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cofco.zlzdapp.ZLiangOffice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEFFC3D61DC9349A003CF9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZLiangOfficeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cofco.zlzdapp.ZLiangOfficeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLiangOffice.app/ZLiangOffice";
+			};
+			name = Debug;
+		};
+		EEFFC3D71DC9349A003CF9D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZLiangOfficeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cofco.zlzdapp.ZLiangOfficeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLiangOffice.app/ZLiangOffice";
+			};
+			name = Release;
+		};
+		EEFFC3D91DC9349A003CF9D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZLiangOfficeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cofco.zlzdapp.ZLiangOfficeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZLiangOffice;
+			};
+			name = Debug;
+		};
+		EEFFC3DA1DC9349A003CF9D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZLiangOfficeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cofco.zlzdapp.ZLiangOfficeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZLiangOffice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEFFC3A01DC9349A003CF9D7 /* Build configuration list for PBXProject "ZLiangOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFFC3D01DC9349A003CF9D7 /* Debug */,
+				EEFFC3D11DC9349A003CF9D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFFC3D21DC9349A003CF9D7 /* Build configuration list for PBXNativeTarget "ZLiangOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFFC3D31DC9349A003CF9D7 /* Debug */,
+				EEFFC3D41DC9349A003CF9D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEFFC3D51DC9349A003CF9D7 /* Build configuration list for PBXNativeTarget "ZLiangOfficeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFFC3D61DC9349A003CF9D7 /* Debug */,
+				EEFFC3D71DC9349A003CF9D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEFFC3D81DC9349A003CF9D7 /* Build configuration list for PBXNativeTarget "ZLiangOfficeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFFC3D91DC9349A003CF9D7 /* Debug */,
+				EEFFC3DA1DC9349A003CF9D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEFFC39D1DC9349A003CF9D7 /* Project object */;
+}
