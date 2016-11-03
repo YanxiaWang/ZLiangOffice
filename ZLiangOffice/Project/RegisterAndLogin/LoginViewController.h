@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  LoginViewController.h
 //  ZLiangOffice
 //
 //  Created by bluemobi on 16/11/1.
@@ -13,14 +13,8 @@
 #import "RegisterViewController.h"
 
 
+@interface LoginViewController : UIViewController
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
-@property (nonatomic, strong) LeftSlideViewController * LeftSlideVC;
-
-@property (nonatomic, assign) BOOL loginState;
+@property (nonatomic, strong) LeftSlideViewController * slider;
 
 @end
-
